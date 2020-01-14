@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Contactos - Erick Cruz</title>
+	<meta name="keywords" content="contactos" />
+	<meta name="description" content="Contactos - Erick Cruz" />
+</head>
+<body>
+<form method="post" action="info.php" id="formulario">
+	<fieldset>
+		<legend>Contactos</legend><br>
+		<h3>Estamos para servirle, despeje todas sus inquietudes.</h3>
+
+		<label for="nombre">
+			<p>Tu Nombre:</p>
+			<input type="text" name="nombre" id="nombre" />
+		</label><br>
+		<label for="email">
+			<p>Tu Email:</p>
+			<input type="email" name="email" id="email" />
+		</label><br>
+		<label for="telefono">
+			<p>Tu Teléfono:</p>
+			<input type="tel" name="telefono" id="telefono" />
+		</label><br>
+
+		<label for="consulta">
+			<p>Motivo de la consulta:</p>
+			<select value="0" name="consulta" id="consulta">
+				<optgroup label="Sistemas Informáticos">
+					<option value="Desarrollo Web">Desarrollo web</option>
+					<option value="Consultoria de TIC">Consultoria de TIC</option>
+				</optgroup>
+				<optgroup label="Infraestructura de Redes">
+					<option value="Instalación y mantenimiento de sistemas inalámbricos">Instalación y mantenimiento de sistemas inalámbricos</option>
+					<option value="Instalación de sistemas de seguridad - porteros video porteros eléctricos">Instalación de sistemas de seguridad - porteros video porteros eléctricos</option>
+				</optgroup>
+				<optgroup label="Mecánica Automotriz">
+					<option value="Mantenimiento y reparación de motores a diesel">Mantenimiento y reparación de motores a diesel</option>
+					<option value="Mantenimiento y reparación de motores a gasolina">Mantenimiento y reparación de motores a gasolina</option>
+				</optgroup>
+			</select>
+		</label>
+		<label for="mensaje">
+			<p>Tu Mensaje:</p>
+			<textarea id="mensaje" name="mensaje"></textarea>
+		</label><br>
+		<input name="Enviar" value="Enviar" type="submit" id="EnviarMensaje"/>
+		<p></p>
+	</fieldset>
+</form>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
