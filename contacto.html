@@ -5,6 +5,8 @@
 	<title>Contactos - Erick Cruz</title>
 	<meta name="keywords" content="contactos" />
 	<meta name="description" content="Contactos - Erick Cruz" />
+	<script type="text/javascript" src="resource/main.js"></script>
+        <link rel="stylesheet" href="resource/css.css"  />
 </head>
 <body>
 <form method="post" action="info.php" id="formulario">
@@ -46,7 +48,7 @@
 			<p>Tu Mensaje:</p>
 			<textarea id="mensaje" name="mensaje"></textarea>
 		</label><br>
-		<input name="Enviar" value="Enviar" type="submit" id="EnviarMensaje"/>
+		<input name="Enviar" value="Enviar" type="submit" id="EnviarMensaje" onclick="pregunta() />
 		<p></p>
 	</fieldset>
 </form>
