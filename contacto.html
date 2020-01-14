@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="resource/css.css"  />
 </head>
 <body>
-<form method="post" action="info.html" id="formulario">
+<form method="post" action="info.html" id="formulario" name="formlario" >
 	<fieldset>
 		<legend>Contactos</legend><br>
 		<h3>Estamos para servirle, despeje todas sus inquietudes.</h3>
 
 		<label for="nombre">
 			<p>Tu Nombre:</p>
-			<input type="text" name="nombre" id="nombre" />
+			<input type="text" name="nombre"  tabindex="1" accesskey="n" id="nombre" />
 		</label><br>
 		<label for="email">
 			<p>Tu Email:</p>
@@ -48,7 +48,7 @@
 			<p>Tu Mensaje:</p>
 			<textarea id="mensaje" name="mensaje"></textarea>
 		</label><br>
-		<input name="Enviar" value="Enviar" type="submit" id="EnviarMensaje" onclick="pregunta() />
+		<input name="Enviar" value="Enviar" type="submit" id="EnviarMensaje" onclick="pregunta()" />
 		<p></p>
 	</fieldset>
 </form>
